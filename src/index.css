@@ -1,0 +1,21 @@
+@import "tailwindcss";
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat);
+}
+
+.backgroundimg{
+  background-image: url('./assets/section-bg2.jpg');
+}
+.hero_img-about{
+  background-image: url('./assets/imgi_16_about.jpg');
+}
+
