@@ -6,6 +6,7 @@ import AllAboutComponentsCall from './components/pages/About/AllAboutComponentsC
 import ProjectCallAllCom from './components/pages/Projects/ProjectCallAllCom'
 import ServicesAllcom from './components/pages/Services/ServicesAllcom'
 import AllCompBlog from './components/pages/Blog/AllCompBlog'
+import CallallPagesofContact from './components/Contact/CallallPagesofContact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={<ProjectCallAllCom />} />
           <Route path="/services" element={<ServicesAllcom />} />
           <Route path="/blog" element={<AllCompBlog />} />
+          <Route path="/Contact" element={<CallallPagesofContact />} />
         </Routes>
       </HashRouter>
     </div>

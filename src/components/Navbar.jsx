@@ -72,7 +72,7 @@ export default function Navbar() {
           <li className='hover:text-orange-400 transition'><Link to="/Services">Services</Link></li>
           <li className='hover:text-orange-400 transition'><Link to="/Blog">Blog</Link></li>
           <li><a href="">Pages</a></li>
-          <li><a href="">Contact</a></li>
+          <li className='hover:text-orange-400 transition'><Link to="/Contact">Contact</Link></li>
 
           <button className='bg-[#f75910] text-white p-3 hidden lg:flex rounded-lg lg:ml-3 xl:ml-8'>
             CONTACT NOW
