@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://awaismalik143.github.io/React_tailwind_responsive_website_Construction/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
